@@ -1,0 +1,45 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Cache_Config.xsd">
+     
+    <diskStore path="java.io.tmpdir"/>
+     
+    <cacheManagerEventListenerFactory class="" properties=""/>
+
+     
+    <defaultCache
+            maxElementsInMemory="100"
+            eternal="false"
+            timeToIdleSeconds="600"
+            timeToLiveSeconds="600"
+            overflowToDisk="false"
+            diskPersistent="false"
+            diskExpiryThreadIntervalSeconds="120"
+            memoryStoreEvictionPolicy="LRU"
+            />
+
+<cache name="CACHE_PASSWORDCONFIG" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_CATA" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_AUTH" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_FINLIST" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_FLDC" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_FUNC" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_FUNCATTR" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_GAPI" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_GETCUBK" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_LAYOUT" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_LOCKINF" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_MSG" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_PRODUCT" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_QMGR" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_SCRN" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_SECU" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_SVRJS" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_STD" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_STDD" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_STP" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_TRFT" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_SINGLE" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_RPTTEMP" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_DO" maxElementsInMemory="0" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_DO_XML" maxElementsInMemory="0" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+<cache name="CACHE_WIDGET" maxElementsInMemory="500" eternal="true" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"/>
+</ehcache>
